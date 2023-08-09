@@ -1,72 +1,79 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Resume Builder</title>
+  <head>
+    <title>Resume Builder By Chikitsa Nijai</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-            background-color: #f2f2f2;
-        }
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-        .content {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 20px;
-        }
-        .image {
-            flex: 1;
-            padding: 20px;
-        }
-        .text {
-            flex: 2;
-            padding: 20px;
-            text-align: left;
-        }
-        .start-button {
-            padding: 15px 30px;
-            font-size: 18px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .start-button:hover {
-            background-color: #0056b3;
-        }
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+      .image {
+        flex: 1;
+        padding: 20px;
+      }
+      .text {
+        flex: 2;
+        padding: 20px;
+        text-align: left;
+      }
+      .start-button {
+        padding: 15px 30px;
+        font-size: 18px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .start-button:hover {
+        background-color: #0056b3;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="content">
-            <div class="image">
-                <img src="https://www.resumebuilder.com/wp-content/themes/resumebuilder/assets/images/desktop-with-resume-.svg" alt="Resume Image" width="600" height="400">
-            </div>
-            <div class="text">
-                <h1>Welcome to the Resume Builder!</h1>
-                <p>Get started by creating your professional resume.</p>
-                <button class="start-button" onclick="startResumeBuilder()">Start Building</button>
-            </div>
+      <div class="content">
+        <div class="image">
+          <img
+            src="https://www.resumebuilder.com/wp-content/themes/resumebuilder/assets/images/desktop-with-resume-.svg"
+            alt="Resume Image"
+            width="600"
+            height="400"
+          />
         </div>
+        <div class="text">
+          <h1>Welcome to the Resume Builder!</h1>
+          <p>Get started by creating your professional resume.</p>
+          <button class="start-button" onclick="startResumeBuilder()">
+            Start Building
+          </button>
+        </div>
+      </div>
     </div>
 
     <script>
-        function startResumeBuilder() {
-            // You can add the logic to redirect the user to the resume creation interface here
-            // For example, you can use window.location.href or any appropriate method.
-            // Replace 'resume-creation.html' with the actual URL of your resume creation interface.
-            window.location.href = 'index.html';
-        }
+      function startResumeBuilder() {
+        // You can add the logic to redirect the user to the resume creation interface here
+        // For example, you can use window.location.href or any appropriate method.
+        // Replace 'resume-creation.html' with the actual URL of your resume creation interface.
+        window.location.href = "index.html";
+      }
     </script>
-</body>
+  </body>
 </html>
